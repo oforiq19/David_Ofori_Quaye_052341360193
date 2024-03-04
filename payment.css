@@ -1,0 +1,21 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+:root {
+    --third-color: #ccac94;
+    --second-color: #ef9c71;
+    --first-color: #2f2228;
+}
+
+body {
+    background: var(--first-color);
+    color: var(--second-color);
+    line-height: 2;
+}
+
+.pf {
+    margin: 0;
+}

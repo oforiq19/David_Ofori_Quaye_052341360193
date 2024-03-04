@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   /* background: url(./images/pic1.jpg);
+    background-color: #878787;
+    background-blend-mode: multiply;
+    background-size: cover; */
+    background-color: var(--first-color);
+    padding: 50px;
+
+}
+
+:root {
+    --third-color: #ccac94;
+    --second-color: #ef9c71;
+    --first-color: #2f2228;
+}
+
+
+.container {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    padding: 50px;
+   /* display: grid; */
+    grid-template-columns: 3fr 2fr;
+   /* background-image: linear-gradient(90deg, var(--second-color) 58%, var(--first-color) 42%) */
+}
+
+.hp {
+    margin: 0 10%;
+    margin-top: 20px;
+}
+
+.hp a {
+    background: var(--second-color);
+    color: var(--first-color);
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 22px;
+}
+
+.hp a:hover {
+    background: transparent;
+    color: var(--second-color);
+    transition: 250ms ease-in; 
+    transform: scale(1.1);
+    padding: 2px;
+
+}
+
+.run {
+    margin: 0;
+    margin-top: 50px;
+    display: flex;
+    background: var(--first-color);
+    color: var(--second-color);
+    font-size: 22px;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 50px;
+    border-color: var(--second-color);
+    padding: 15px;
+    text-transform:uppercase;
+    
+}
+
+.welkies {
+    margin: 0 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: var(--second-color);
+    font-size: 22px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: bold;
+}
+
+div p .welkies {
+    margin: 0;
+    margin-top: 70px;
+    color: var(--second-color);
+}
+
+.comm{
+    margin: 0;
+    margin-top: 20px;
+    color: var(--second-color);
+    padding: 20px;
+    font-style: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+div ul li {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    color: var(--third-color);
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-style: bold;
+}
+
+.df{
+    margin: 0;
+    margin-top: 50px;
+    display: flex;
+    background: var(--first-color);
+    color: var(--second-color);
+    font-size: 22px;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 22px;
+    border-color: var(--second-color);
+    padding: 30px;
+    
+}
+
